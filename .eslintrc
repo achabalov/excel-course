@@ -7,7 +7,17 @@
     },
     "rules": {
         "semi": "off",
-        "linebreak-style": 0
+        "linebreak-style": 0,
+        "require-jsdoc": "off",
+        "comma-dangle": "off",
+        "space-before-blocks": "off",
+        "indent": "off",
+        "no-trailing-spaces": "off",
+        "keyword-spacing": "off",
+        "arrow-parens": "off",
+        "no-unused-vars": "off",
+        "eol-last": "off",
+        "padded-blocks": "off"
     },
     "extends": ["eslint:recommended", "google"]
 }
