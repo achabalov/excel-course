@@ -11,7 +11,9 @@ function createCel() {
 
 function toColumn(col) {
     return `
-    <div class='column'>${col}</div>
+    <div class='column' data-set='col'>${col}
+    <div class='resize' data-set='resize'></div>
+    </div>
     `
 }
 
