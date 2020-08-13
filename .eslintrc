@@ -17,7 +17,12 @@
         "arrow-parens": "off",
         "no-unused-vars": "off",
         "eol-last": "off",
-        "padded-blocks": "off"
+        "padded-blocks": "off",
+        "prefer-const": "off",
+        "camelcase": "off",
+        "no-debugger": "off",
+        "valid-jsdoc": "off",
+        "guard-for-in": "off"
     },
     "extends": ["eslint:recommended", "google"]
 }
