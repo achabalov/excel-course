@@ -11,7 +11,6 @@ export function resizeHandler($root, event) {
                 opacity: 1,
                 [sideProp]: '-5000px'
             })
-            
             document.onmousemove = e => {
                 if(type === 'col') {
                 const delta = e.pageX - coords.right;
@@ -23,7 +22,7 @@ export function resizeHandler($root, event) {
                 $resizer.css({bottom: -delta+'px'})
             } 
             }
-    
+           
             document.onmouseup = e => {
                 document.onmousemove = null;
                 document.onmouseup = null;
