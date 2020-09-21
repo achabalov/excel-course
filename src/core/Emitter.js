@@ -14,7 +14,6 @@ export class Emitter {
             listener(...args);
         })
         return true;
-   
     }
 
     // Подписываемся на уведомления
