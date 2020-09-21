@@ -22,7 +22,9 @@
         "camelcase": "off",
         "no-debugger": "off",
         "valid-jsdoc": "off",
-        "guard-for-in": "off"
+        "guard-for-in": "off",
+        "no-case-declarations": "off",
+        "operator-linebreak": "off"
     },
     "extends": ["eslint:recommended", "google"]
 }
